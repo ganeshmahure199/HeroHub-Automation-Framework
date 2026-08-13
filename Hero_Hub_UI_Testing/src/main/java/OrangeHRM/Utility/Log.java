@@ -1,9 +1,5 @@
 package OrangeHRM.Utility;
 
-/**
- * @author Ganesh.Mahure
- */
-
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -30,7 +26,6 @@ public class Log {
     public static ExtentReports extent;
     public static ExtentSparkReporter reporter;
     
-    // ThreadLocal prevents multi-threading errors during execution
     private static final ThreadLocal<ExtentTest> extentLogger = new ThreadLocal<>(); 
     public static final Logger LOGGER = LogManager.getLogger("Log");
 
@@ -60,12 +55,6 @@ public class Log {
         }
     }
 
-    public static void ChromeFocus() {
-        if (getTest() != null) {
-            getTest().addScreenCaptureFromPath(BaseTest.takeScreenshot());       
-        }
-    }
-
     public static void AddScreenshot() {
         if (getTest() != null) {
             getTest().addScreenCaptureFromBase64String(BaseTest.getscreenshot()); 
@@ -81,18 +70,17 @@ public class Log {
     }   
 
     public static void initialiseExtentReport() {
-        LOGGER.debug("==============      Configuring Extent Report      ================");
         String reportPath = System.getProperty("user.dir") + File.separator + "Reports" + File.separator + "ExtentReport.html";
         reporter = new ExtentSparkReporter(reportPath);
         
-        reporter.config().setDocumentTitle("CHL_Buying_Journey");
-        reporter.config().setReportName("CHL_Buying_Journey Web Automation Report");
+        reporter.config().setDocumentTitle("Orange_HRM_Automation Web Automation Report");
+        reporter.config().setReportName("Orange_HRM_Automation Web Automation Report");
         reporter.config().setTheme(Theme.DARK);
         reporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
         
         extent = new ExtentReports();
         extent.attachReporter(reporter);
-        extent.setSystemInfo("Project Name", "Orange HRM Automation");
+        extent.setSystemInfo("Project Name", "Orange_HRM_Automation");
         extent.setSystemInfo("Platform", "Web");
         extent.setSystemInfo("Test Environment", "UAT");
         extent.setSystemInfo("Test Suite", "Sanity Tests");
@@ -100,7 +88,6 @@ public class Log {
     }
 
     public static void flushExtent() {
-        LOGGER.debug("===================      Flushing Extent Report      =========================");
         if (extent != null) {
             extent.flush();
         }
@@ -109,14 +96,13 @@ public class Log {
     public static void afterMethodLogResult(Method method, ITestResult result, WebDriver driver) throws IOException {
         if (getTest() == null) return;
 
-        // Uses Extent and TestNG logic to determine fallback logging
         if (result.getStatus() == ITestResult.FAILURE) {
             getTest().log(Status.FAIL, MarkupHelper.createLabel("TEST FAILED -- " + result.getName(), ExtentColor.RED));            
             takeScreenshot(method.getName(), driver);
         } else if (ITestResult.SUCCESS == result.getStatus()) {
-            getTest().log(Status.PASS, MarkupHelper.createLabel(" TEST PASSED -- " + result.getName(), ExtentColor.GREEN));
+            getTest().log(Status.PASS, MarkupHelper.createLabel("TEST PASSED -- " + result.getName(), ExtentColor.GREEN));
         } else if (ITestResult.SKIP == result.getStatus()) {
-            getTest().log(Status.SKIP, MarkupHelper.createLabel(" TEST SKIPPED -- " + result.getName(), ExtentColor.ORANGE));
+            getTest().log(Status.SKIP, MarkupHelper.createLabel("TEST SKIPPED -- " + result.getName(), ExtentColor.ORANGE));
             getTest().skip(result.getThrowable());
         }
     }

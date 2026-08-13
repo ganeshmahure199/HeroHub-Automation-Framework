@@ -1,9 +1,5 @@
 package OrangeHRM.Utility;
 
-/**
- * @author Ganesh.Mahure
- */
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,10 +10,8 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.Cookie; // FIXED: Added missing Selenium Cookie import
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -180,60 +174,8 @@ public class Library {
                 Assert.assertEquals(actualValue, expectedValue);
             }
         } catch(Exception e) {                  
-            Log.error("Value comparison processing error while validating string text objects: " + e.getMessage());                    
-        }
-    }      
-
-    // ==================== ADDED COOKIE METHODS ====================
-    
-    public static void saveSessionCookie(WebDriver driver, String cookieName) {
-        try {
-            Cookie loginCookie = driver.manage().getCookieNamed(cookieName);
-            if (loginCookie != null) {
-                System.setProperty("session_token_cache", loginCookie.getValue());
-                Log.info("Session token successfully captured: " + cookieName);
-            }
-        } catch (Exception e) {
-            Log.error("Failed to extract active session cookie context: " + e.getMessage());
+            Log.error("Value comparison processing error while validating string text objects: " + e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
-
-    public static void injectSessionCookie(WebDriver driver, String cookieName, String domainName) {
-	    try {
-	        String cachedToken = System.getProperty("session_token_cache");
-	        if (cachedToken != null && !cachedToken.isEmpty()) {
-	            // FIXED: Added .sameSite("Lax") to comply with OrangeHRM's application security policies
-	            Cookie sessionCookie = new Cookie.Builder(cookieName, cachedToken)
-	                    .domain(domainName)
-	                    .path("/")
-	                    .isSecure(true)
-	                    .sameSite("Lax") 
-	                    .build();
-	            
-	            driver.manage().addCookie(sessionCookie);
-	            Log.info("Session token injected successfully into domain space mapping.");
-	        } else {
-	            Log.warn("No cached session cookie found in framework memory layers.");
-	        }
-	    } catch (Exception e) {
-	        Log.error("Failed executing programmatic cookie injection sequence: " + e.getMessage());
-	    }
-	}
-    
-	 // =============================================================================================	
-	 // 6. FIXED: Added the missing Invisibility Wait method to clear the compilation error
-	 public static boolean waitForInvisibilityOf(WebDriver driver, WebElement element) {
-	     try {
-	         // Pauses execution for up to 15 seconds waiting for the element to vanish cleanly
-	         org.openqa.selenium.support.ui.WebDriverWait wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, Duration.ofSeconds(15));
-	         return wait.until(ExpectedConditions.invisibilityOf(element));
-	     } catch (Exception e) {
-	         Log.error("Timeout waiting for invisibility of element -- Element: " + element + " | Trace: " + e.getMessage());
-	         throw e;
-	     }
-	 }
-	 
-	 
-
-
 }

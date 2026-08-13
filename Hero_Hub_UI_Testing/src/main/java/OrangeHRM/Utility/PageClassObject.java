@@ -10,12 +10,17 @@ import OrangeHRM.pages.loginPage;
 public class PageClassObject {
 
     public static final Logger LOGGER = LogManager.getLogger("Log");      
+    public static WebDriver driver; 
     public static excelTestData exceldata; 
     public static loginPage login;
-    public static WebDriver driver; 
+    
 
     @BeforeMethod(alwaysRun = true)
     public void getObject() {
         LOGGER.debug("Readying framework method environment track...");
     }
+    
+    
 }
+
+
