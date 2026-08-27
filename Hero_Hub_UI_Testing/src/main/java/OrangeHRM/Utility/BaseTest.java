@@ -23,6 +23,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.google.common.io.Files;
+
 import net.bytebuddy.utility.RandomString;
 
 public class BaseTest extends ConfigeDataProvider {
@@ -57,7 +58,7 @@ public class BaseTest extends ConfigeDataProvider {
 
     @AfterClass(alwaysRun = true)
     public void afterClass()  {             
-        quitBrowser(); 
+      quitBrowser(); 
     }
 
     @AfterSuite(alwaysRun = true)
@@ -86,7 +87,9 @@ public class BaseTest extends ConfigeDataProvider {
             driver = new ChromeDriver(options);      
         }
         driver.manage().window().maximize();                
-        driver.get(ConfigeDataProvider.getOrangeHrmUrl());            
+      //  driver.get(ConfigeDataProvider.getOrangeHrmUrl());         
+      //  driver.get(ConfigeDataProvider.getAutomationExerciseUrl()); 
+        driver.get(ConfigeDataProvider.naukri());  
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));      
     }
  

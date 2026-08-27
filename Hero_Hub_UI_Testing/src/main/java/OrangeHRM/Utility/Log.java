@@ -3,14 +3,18 @@ package OrangeHRM.Utility;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -18,7 +22,7 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.google.common.io.Files;
+
 import net.bytebuddy.utility.RandomString;
 
 public class Log {
@@ -70,7 +74,7 @@ public class Log {
     }   
 
     public static void initialiseExtentReport() {
-        String reportPath = System.getProperty("user.dir") + File.separator + "Reports" + File.separator + "ExtentReport.html";
+        String reportPath = Path.of(System.getProperty("user.dir"), "Reports", "ExtentReport.html").toString();
         reporter = new ExtentSparkReporter(reportPath);
         
         reporter.config().setDocumentTitle("Orange_HRM_Automation Web Automation Report");
@@ -95,10 +99,10 @@ public class Log {
 
     public static void afterMethodLogResult(Method method, ITestResult result, WebDriver driver) throws IOException {
         if (getTest() == null) return;
-
         if (result.getStatus() == ITestResult.FAILURE) {
             getTest().log(Status.FAIL, MarkupHelper.createLabel("TEST FAILED -- " + result.getName(), ExtentColor.RED));            
-            takeScreenshot(method.getName(), driver);
+            String screenshotPath = takeScreenshot(method.getName(), driver);
+            getTest().addScreenCaptureFromPath(screenshotPath, "Failure Screenshot");            
         } else if (ITestResult.SUCCESS == result.getStatus()) {
             getTest().log(Status.PASS, MarkupHelper.createLabel("TEST PASSED -- " + result.getName(), ExtentColor.GREEN));
         } else if (ITestResult.SKIP == result.getStatus()) {
@@ -110,16 +114,17 @@ public class Log {
     public static String takeScreenshot(String methodName, WebDriver driver) {
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("ddMMyy-hhmmss");
-        String strDate = formatter.format(date);
-        
-        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String path = System.getProperty("user.dir") + File.separator + "Reports" + File.separator + "FailedTestScreenShots" 
-                      + File.separator + strDate + "_" + RandomString.make(2) + "_" + methodName + ".jpg";
+        String strDate = formatter.format(date);        
+        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);        
+        String fileName = strDate + "_" + RandomString.make(2) + "_" + methodName + ".jpg";                
+        String relativePath = "FailedTestScreenShots" + File.separator + fileName;
+        Path targetPath = Path.of(System.getProperty("user.dir"), "Reports", "FailedTestScreenShots", fileName);        
         try {
-            Files.copy(srcFile, new File(path));
+            Files.createDirectories(targetPath.getParent());
+            Files.copy(srcFile.toPath(), targetPath);
         } catch (IOException e) {
             LOGGER.error("Failed to save screenshot: " + e.getMessage());
-        }
-        return path;
+        }               
+        return relativePath;
     }   
 }

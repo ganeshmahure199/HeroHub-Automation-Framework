@@ -1,39 +1,894 @@
-[DEBUG] 2026-08-06 23:58:22.576 [main] Log - ==============      Configuring Extent Report      ================
-[DEBUG] 2026-08-06 23:58:22.691 [main] Log - ***************         Launching Browser Session for Class      ***********************
-[INFO ] 2026-08-06 23:58:22.695 [main] Log - Detected Local IDE environment. Launching VISIBLE browser window.
-[INFO ] 2026-08-06 23:58:57.853 [main] Log - Executing master login precondition step...
-[INFO ] 2026-08-06 23:59:10.731 [main] Log - Value injected successfully to field [Username Text Field]: Admin
-[INFO ] 2026-08-06 23:59:10.835 [main] Log - Value injected successfully to field [Password Text Field]: admin123
-[INFO ] 2026-08-06 23:59:10.879 [main] Log - Element clicked successfully: Login Submit Button
-[DEBUG] 2026-08-06 23:59:14.887 [main] Log - Readying framework method environment track...
-[DEBUG] 2026-08-06 23:59:14.902 [main] Log - ====================================================================================
-[DEBUG] 2026-08-06 23:59:14.903 [main] Log -                    Start -> Test -> step01_verifyDashboardComponentA    
-[DEBUG] 2026-08-06 23:59:14.903 [main] Log - ====================================================================================
-[INFO ] 2026-08-06 23:59:14.954 [main] Log - Value Validation Match Successful! Actual matches Target content: [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]
-[DEBUG] 2026-08-06 23:59:14.961 [main] Log -  
-[DEBUG] 2026-08-06 23:59:15.972 [main] Log -  End -> Test -> step01_verifyDashboardComponentA    
-[DEBUG] 2026-08-06 23:59:15.972 [main] Log - Readying framework method environment track...
-[DEBUG] 2026-08-06 23:59:15.972 [main] Log - ====================================================================================
-[DEBUG] 2026-08-06 23:59:15.972 [main] Log -                    Start -> Test -> step02_verifyDashboardComponentB    
-[DEBUG] 2026-08-06 23:59:15.972 [main] Log - ====================================================================================
-[INFO ] 2026-08-06 23:59:15.988 [main] Log - Value Validation Match Successful! Actual matches Target content: [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]
-[DEBUG] 2026-08-06 23:59:15.997 [main] Log -  
-[DEBUG] 2026-08-06 23:59:17.005 [main] Log -  End -> Test -> step02_verifyDashboardComponentB    
-[DEBUG] 2026-08-06 23:59:17.005 [main] Log - *******************         Driver Quit (End of Class Suite Run)       ***********************
-[DEBUG] 2026-08-06 23:59:17.195 [main] Log - *******************        Next Class suite      ***********************
-[DEBUG] 2026-08-06 23:59:17.197 [main] Log - ***************         Launching Browser Session for Class      ***********************
-[INFO ] 2026-08-06 23:59:17.197 [main] Log - Detected Local IDE environment. Launching VISIBLE browser window.
-[INFO ] 2026-08-06 23:59:25.386 [main] Log - Executing master login precondition step for Excel Data Validation...
-[INFO ] 2026-08-06 23:59:28.865 [main] Log - Value injected successfully to field [Username Text Field]: Admin
-[INFO ] 2026-08-06 23:59:28.967 [main] Log - Value injected successfully to field [Password Text Field]: admin123
-[INFO ] 2026-08-06 23:59:29.018 [main] Log - Element clicked successfully: Login Submit Button
-[DEBUG] 2026-08-06 23:59:33.033 [main] Log - Readying framework method environment track...
-[DEBUG] 2026-08-06 23:59:33.034 [main] Log - ====================================================================================
-[DEBUG] 2026-08-06 23:59:33.035 [main] Log -                    Start -> Test -> testLoginExcelData_Valid    
-[DEBUG] 2026-08-06 23:59:33.035 [main] Log - ====================================================================================
-[INFO ] 2026-08-06 23:59:33.969 [main] Log - Value Validation Match Successful! Actual matches Target content: [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]
-[DEBUG] 2026-08-06 23:59:33.971 [main] Log -  
-[DEBUG] 2026-08-06 23:59:34.978 [main] Log -  End -> Test -> testLoginExcelData_Valid    
-[DEBUG] 2026-08-06 23:59:34.978 [main] Log - *******************         Driver Quit (End of Class Suite Run)       ***********************
-[DEBUG] 2026-08-06 23:59:35.136 [main] Log - *******************        Next Class suite      ***********************
-[DEBUG] 2026-08-06 23:59:35.138 [main] Log - ===================      Flushing Extent Report      =========================
+[INFO ] 2026-08-27 13:46:29.742 [main] Log - Navigating to QualityKiosk Careers Home...
+[DEBUG] 2026-08-27 13:46:36.010 [main] Log - Start -> Test -> testAutoApplyToJobs
+[INFO ] 2026-08-27 13:46:43.929 [main] Log - ==================================================================
+[INFO ] 2026-08-27 13:46:43.929 [main] Log - ====== Starting processing for Listing Page: 1 ======
+[INFO ] 2026-08-27 13:46:43.929 [main] Log - ==================================================================
+[INFO ] 2026-08-27 13:46:44.007 [main] Log - Total job cards found on current view: 45
+[INFO ] 2026-08-27 13:46:44.136 [main] Log - Processing Card [1] Status Content: Apply
+[INFO ] 2026-08-27 13:46:44.136 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:46:48.024 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:46:48.828 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:46:52.925 [main] Log - Processing Card [2] Status Content: Apply
+[INFO ] 2026-08-27 13:46:52.925 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:46:56.692 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:46:57.498 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:47:01.586 [main] Log - Processing Card [3] Status Content: Apply
+[INFO ] 2026-08-27 13:47:01.586 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:47:05.327 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:47:06.060 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:47:10.216 [main] Log - Processing Card [4] Status Content: Apply
+[INFO ] 2026-08-27 13:47:10.216 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:47:14.096 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:47:14.919 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:47:19.017 [main] Log - Processing Card [5] Status Content: Apply
+[INFO ] 2026-08-27 13:47:19.017 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:47:22.742 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:47:23.500 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:47:27.598 [main] Log - Processing Card [6] Status Content: Apply
+[INFO ] 2026-08-27 13:47:27.598 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:47:31.326 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:47:32.042 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:47:36.191 [main] Log - Processing Card [7] Status Content: Apply
+[INFO ] 2026-08-27 13:47:36.191 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:47:40.033 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:47:40.753 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:47:44.895 [main] Log - Processing Card [8] Status Content: Apply
+[INFO ] 2026-08-27 13:47:44.895 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:47:48.635 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:47:49.352 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:47:53.437 [main] Log - Processing Card [9] Status Content: Apply
+[INFO ] 2026-08-27 13:47:53.437 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:47:57.142 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:47:57.916 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:48:02.035 [main] Log - Processing Card [10] Status Content: Apply
+[INFO ] 2026-08-27 13:48:02.035 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:48:05.925 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:48:06.732 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:48:10.858 [main] Log - Processing Card [11] Status Content: Apply
+[INFO ] 2026-08-27 13:48:10.858 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:48:14.625 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:48:15.387 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:48:19.472 [main] Log - Processing Card [12] Status Content: Apply
+[INFO ] 2026-08-27 13:48:19.472 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:48:23.209 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:48:23.933 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:48:28.073 [main] Log - Processing Card [13] Status Content: Apply
+[INFO ] 2026-08-27 13:48:28.073 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:48:31.842 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:48:32.572 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:48:36.675 [main] Log - Processing Card [14] Status Content: Apply
+[INFO ] 2026-08-27 13:48:36.677 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:48:40.376 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:48:41.096 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:48:45.190 [main] Log - Processing Card [15] Status Content: Apply
+[INFO ] 2026-08-27 13:48:45.190 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:48:48.918 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:48:49.648 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:48:53.767 [main] Log - Processing Card [16] Status Content: Apply
+[INFO ] 2026-08-27 13:48:53.767 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:48:57.527 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:48:58.264 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:49:02.369 [main] Log - Processing Card [17] Status Content: Apply
+[INFO ] 2026-08-27 13:49:02.371 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:49:06.160 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:49:06.859 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:49:10.929 [main] Log - Processing Card [18] Status Content: Apply
+[INFO ] 2026-08-27 13:49:10.929 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:49:14.627 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:49:15.356 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:49:19.530 [main] Log - Processing Card [19] Status Content: Apply
+[INFO ] 2026-08-27 13:49:19.530 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:49:23.453 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:49:24.221 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:49:28.287 [main] Log - Processing Card [20] Status Content: Apply
+[INFO ] 2026-08-27 13:49:28.287 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:49:32.036 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:49:32.780 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:49:36.858 [main] Log - Processing Card [21] Status Content: Apply
+[INFO ] 2026-08-27 13:49:36.864 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:49:40.570 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:49:41.262 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:49:45.369 [main] Log - Processing Card [22] Status Content: Apply
+[INFO ] 2026-08-27 13:49:45.369 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:49:49.170 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:49:49.899 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:49:54.021 [main] Log - Processing Card [23] Status Content: Apply
+[INFO ] 2026-08-27 13:49:54.021 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:49:57.770 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:49:58.479 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:50:02.561 [main] Log - Processing Card [24] Status Content: Apply
+[INFO ] 2026-08-27 13:50:02.561 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:50:06.270 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:50:07.021 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:50:11.153 [main] Log - Processing Card [25] Status Content: Apply
+[INFO ] 2026-08-27 13:50:11.153 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:50:15.070 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:50:15.782 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:50:19.885 [main] Log - Processing Card [26] Status Content: Apply
+[INFO ] 2026-08-27 13:50:19.885 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:50:23.664 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:50:24.429 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:50:28.508 [main] Log - Processing Card [27] Status Content: Apply
+[INFO ] 2026-08-27 13:50:28.508 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:50:32.256 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:50:33.016 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:50:37.109 [main] Log - Processing Card [28] Status Content: Apply
+[INFO ] 2026-08-27 13:50:37.119 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:50:40.854 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:50:41.553 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:50:45.684 [main] Log - Processing Card [29] Status Content: Apply
+[INFO ] 2026-08-27 13:50:45.684 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:50:49.429 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:50:50.162 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:50:54.251 [main] Log - Processing Card [30] Status Content: Apply
+[INFO ] 2026-08-27 13:50:54.251 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:50:58.021 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:50:58.754 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:51:02.850 [main] Log - Processing Card [31] Status Content: Apply
+[INFO ] 2026-08-27 13:51:02.851 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:51:06.665 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:51:07.421 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:51:11.529 [main] Log - Processing Card [32] Status Content: Apply
+[INFO ] 2026-08-27 13:51:11.529 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:51:15.221 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:51:15.931 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:51:20.028 [main] Log - Processing Card [33] Status Content: Apply
+[INFO ] 2026-08-27 13:51:20.028 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:51:23.772 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:51:24.471 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:51:28.577 [main] Log - Processing Card [34] Status Content: Apply
+[INFO ] 2026-08-27 13:51:28.577 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:51:32.425 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:51:33.149 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:51:37.304 [main] Log - Processing Card [35] Status Content: Apply
+[INFO ] 2026-08-27 13:51:37.304 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:51:41.121 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:51:41.880 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:51:45.953 [main] Log - Processing Card [36] Status Content: Apply
+[INFO ] 2026-08-27 13:51:45.953 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:51:49.655 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:51:50.432 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:51:54.588 [main] Log - Processing Card [37] Status Content: Apply
+[INFO ] 2026-08-27 13:51:54.588 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:51:58.423 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:51:59.128 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:52:03.229 [main] Log - Processing Card [38] Status Content: Apply
+[INFO ] 2026-08-27 13:52:03.229 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:52:07.022 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:52:07.738 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:52:11.840 [main] Log - Processing Card [39] Status Content: Apply
+[INFO ] 2026-08-27 13:52:11.841 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:52:15.607 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:52:16.261 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:52:20.511 [main] Log - Processing Card [40] Status Content: Apply
+[INFO ] 2026-08-27 13:52:20.511 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:52:24.412 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:52:25.185 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:52:29.280 [main] Log - Processing Card [41] Status Content: Applied
+[INFO ] 2026-08-27 13:52:29.281 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:52:29.370 [main] Log - Processing Card [42] Status Content: Apply
+[INFO ] 2026-08-27 13:52:29.370 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:52:33.254 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:52:34.098 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:52:38.433 [main] Log - Processing Card [43] Status Content: Apply
+[INFO ] 2026-08-27 13:52:38.433 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:52:42.662 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:52:43.508 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:52:47.602 [main] Log - Processing Card [44] Status Content: Apply
+[INFO ] 2026-08-27 13:52:47.602 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:52:51.551 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:52:52.377 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:52:56.473 [main] Log - Processing Card [45] Status Content: Apply
+[INFO ] 2026-08-27 13:52:56.473 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:53:00.330 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:53:00.965 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:53:04.972 [main] Log - All visible cards on Page 1 are finished. Checking for page progression elements...
+[INFO ] 2026-08-27 13:53:05.099 [main] Log - >>> NEXT PAGE CONTROLS DETECTED: Clicking arrow button to advance to Page 2
+[INFO ] 2026-08-27 13:53:07.373 [main] Log - ==================================================================
+[INFO ] 2026-08-27 13:53:07.373 [main] Log - ====== Starting processing for Listing Page: 2 ======
+[INFO ] 2026-08-27 13:53:07.374 [main] Log - ==================================================================
+[INFO ] 2026-08-27 13:53:07.409 [main] Log - Total job cards found on current view: 45
+[INFO ] 2026-08-27 13:53:07.718 [main] Log - Processing Card [1] Status Content: Applied
+[INFO ] 2026-08-27 13:53:07.718 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:08.057 [main] Log - Processing Card [2] Status Content: Applied
+[INFO ] 2026-08-27 13:53:08.057 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:08.573 [main] Log - Processing Card [3] Status Content: Applied
+[INFO ] 2026-08-27 13:53:08.573 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:08.785 [main] Log - Processing Card [4] Status Content: Applied
+[INFO ] 2026-08-27 13:53:08.785 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:08.983 [main] Log - Processing Card [5] Status Content: Applied
+[INFO ] 2026-08-27 13:53:08.983 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:09.065 [main] Log - Processing Card [6] Status Content: Applied
+[INFO ] 2026-08-27 13:53:09.065 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:09.228 [main] Log - Processing Card [7] Status Content: Applied
+[INFO ] 2026-08-27 13:53:09.228 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:09.487 [main] Log - Processing Card [8] Status Content: Applied
+[INFO ] 2026-08-27 13:53:09.488 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:09.568 [main] Log - Processing Card [9] Status Content: Applied
+[INFO ] 2026-08-27 13:53:09.568 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:09.857 [main] Log - Processing Card [10] Status Content: Applied
+[INFO ] 2026-08-27 13:53:09.857 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:09.986 [main] Log - Processing Card [11] Status Content: Applied
+[INFO ] 2026-08-27 13:53:09.986 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:10.078 [main] Log - Processing Card [12] Status Content: Applied
+[INFO ] 2026-08-27 13:53:10.078 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:10.280 [main] Log - Processing Card [13] Status Content: Applied
+[INFO ] 2026-08-27 13:53:10.282 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:10.515 [main] Log - Processing Card [14] Status Content: Applied
+[INFO ] 2026-08-27 13:53:10.515 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:10.606 [main] Log - Processing Card [15] Status Content: Applied
+[INFO ] 2026-08-27 13:53:10.606 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:10.775 [main] Log - Processing Card [16] Status Content: Applied
+[INFO ] 2026-08-27 13:53:10.775 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:10.959 [main] Log - Processing Card [17] Status Content: Applied
+[INFO ] 2026-08-27 13:53:10.959 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:11.030 [main] Log - Processing Card [18] Status Content: Applied
+[INFO ] 2026-08-27 13:53:11.032 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:11.133 [main] Log - Processing Card [19] Status Content: Applied
+[INFO ] 2026-08-27 13:53:11.133 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:11.371 [main] Log - Processing Card [20] Status Content: Applied
+[INFO ] 2026-08-27 13:53:11.371 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:11.447 [main] Log - Processing Card [21] Status Content: Applied
+[INFO ] 2026-08-27 13:53:11.447 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:11.570 [main] Log - Processing Card [22] Status Content: Applied
+[INFO ] 2026-08-27 13:53:11.570 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:11.856 [main] Log - Processing Card [23] Status Content: Applied
+[INFO ] 2026-08-27 13:53:11.856 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:11.937 [main] Log - Processing Card [24] Status Content: Applied
+[INFO ] 2026-08-27 13:53:11.937 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:12.200 [main] Log - Processing Card [25] Status Content: Applied
+[INFO ] 2026-08-27 13:53:12.200 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:12.344 [main] Log - Processing Card [26] Status Content: Applied
+[INFO ] 2026-08-27 13:53:12.344 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:12.418 [main] Log - Processing Card [27] Status Content: Applied
+[INFO ] 2026-08-27 13:53:12.418 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:12.638 [main] Log - Processing Card [28] Status Content: Applied
+[INFO ] 2026-08-27 13:53:12.639 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:12.834 [main] Log - Processing Card [29] Status Content: Applied
+[INFO ] 2026-08-27 13:53:12.834 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:12.928 [main] Log - Processing Card [30] Status Content: Applied
+[INFO ] 2026-08-27 13:53:12.928 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:13.104 [main] Log - Processing Card [31] Status Content: Applied
+[INFO ] 2026-08-27 13:53:13.106 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:13.286 [main] Log - Processing Card [32] Status Content: Applied
+[INFO ] 2026-08-27 13:53:13.286 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:13.367 [main] Log - Processing Card [33] Status Content: Applied
+[INFO ] 2026-08-27 13:53:13.375 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:13.586 [main] Log - Processing Card [34] Status Content: Applied
+[INFO ] 2026-08-27 13:53:13.586 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:13.774 [main] Log - Processing Card [35] Status Content: Applied
+[INFO ] 2026-08-27 13:53:13.774 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:13.876 [main] Log - Processing Card [36] Status Content: Applied
+[INFO ] 2026-08-27 13:53:13.883 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:13.961 [main] Log - Processing Card [37] Status Content: Applied
+[INFO ] 2026-08-27 13:53:13.961 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:14.160 [main] Log - Processing Card [38] Status Content: Applied
+[INFO ] 2026-08-27 13:53:14.160 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:14.280 [main] Log - Processing Card [39] Status Content: Applied
+[INFO ] 2026-08-27 13:53:14.280 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:14.439 [main] Log - Processing Card [40] Status Content: Applied
+[INFO ] 2026-08-27 13:53:14.440 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:14.631 [main] Log - Processing Card [41] Status Content: Applied
+[INFO ] 2026-08-27 13:53:14.631 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:14.682 [main] Log - Processing Card [42] Status Content: Applied
+[INFO ] 2026-08-27 13:53:14.682 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:14.950 [main] Log - Processing Card [43] Status Content: Applied
+[INFO ] 2026-08-27 13:53:14.950 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:15.003 [main] Log - Processing Card [44] Status Content: Applied
+[INFO ] 2026-08-27 13:53:15.003 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:15.065 [main] Log - Processing Card [45] Status Content: Applied
+[INFO ] 2026-08-27 13:53:15.065 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 13:53:15.065 [main] Log - All visible cards on Page 2 are finished. Checking for page progression elements...
+[INFO ] 2026-08-27 13:53:15.139 [main] Log - >>> NEXT PAGE CONTROLS DETECTED: Clicking arrow button to advance to Page 3
+[INFO ] 2026-08-27 13:53:17.511 [main] Log - ==================================================================
+[INFO ] 2026-08-27 13:53:17.511 [main] Log - ====== Starting processing for Listing Page: 3 ======
+[INFO ] 2026-08-27 13:53:17.511 [main] Log - ==================================================================
+[INFO ] 2026-08-27 13:53:17.527 [main] Log - Total job cards found on current view: 45
+[INFO ] 2026-08-27 13:53:17.790 [main] Log - Processing Card [1] Status Content: Apply
+[INFO ] 2026-08-27 13:53:17.790 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:53:22.294 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:53:23.129 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:53:27.349 [main] Log - Processing Card [2] Status Content: Apply
+[INFO ] 2026-08-27 13:53:27.350 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:53:31.205 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:53:32.059 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:53:36.165 [main] Log - Processing Card [3] Status Content: Apply
+[INFO ] 2026-08-27 13:53:36.165 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:53:40.090 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:53:40.914 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:53:45.100 [main] Log - Processing Card [4] Status Content: Apply
+[INFO ] 2026-08-27 13:53:45.100 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:53:49.190 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:53:50.031 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:53:54.107 [main] Log - Processing Card [5] Status Content: Apply
+[INFO ] 2026-08-27 13:53:54.107 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:53:57.987 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:53:58.835 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:54:02.923 [main] Log - Processing Card [6] Status Content: Apply
+[INFO ] 2026-08-27 13:54:02.923 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:54:06.750 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:54:07.625 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:54:11.918 [main] Log - Processing Card [7] Status Content: Apply
+[INFO ] 2026-08-27 13:54:11.918 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:54:15.853 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:54:16.684 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:54:20.760 [main] Log - Processing Card [8] Status Content: Apply
+[INFO ] 2026-08-27 13:54:20.760 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:54:24.566 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:54:25.387 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:54:29.535 [main] Log - Processing Card [9] Status Content: Apply
+[INFO ] 2026-08-27 13:54:29.535 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:54:33.434 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:54:34.285 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:54:38.542 [main] Log - Processing Card [10] Status Content: Apply
+[INFO ] 2026-08-27 13:54:38.542 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:54:42.505 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:54:43.263 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:54:47.353 [main] Log - Processing Card [11] Status Content: Apply
+[INFO ] 2026-08-27 13:54:47.353 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:54:51.278 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:54:52.228 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:54:56.335 [main] Log - Processing Card [12] Status Content: Apply
+[INFO ] 2026-08-27 13:54:56.337 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:55:00.267 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:55:01.257 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:55:05.527 [main] Log - Processing Card [13] Status Content: Apply
+[INFO ] 2026-08-27 13:55:05.527 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:55:09.479 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:55:10.320 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:55:14.410 [main] Log - Processing Card [14] Status Content: Apply
+[INFO ] 2026-08-27 13:55:14.410 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:55:18.271 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:55:19.006 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:55:23.086 [main] Log - Processing Card [15] Status Content: Apply
+[INFO ] 2026-08-27 13:55:23.086 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:55:26.817 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:55:27.522 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:55:31.629 [main] Log - Processing Card [16] Status Content: Apply
+[INFO ] 2026-08-27 13:55:31.629 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:55:35.384 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:55:36.106 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:55:40.226 [main] Log - Processing Card [17] Status Content: Apply
+[INFO ] 2026-08-27 13:55:40.226 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:55:43.947 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:55:44.635 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:55:48.718 [main] Log - Processing Card [18] Status Content: Apply
+[INFO ] 2026-08-27 13:55:48.718 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:55:52.420 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:55:53.114 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:55:57.234 [main] Log - Processing Card [19] Status Content: Apply
+[INFO ] 2026-08-27 13:55:57.234 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:56:00.967 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:56:01.656 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:56:05.801 [main] Log - Processing Card [20] Status Content: Apply
+[INFO ] 2026-08-27 13:56:05.801 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:56:09.505 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:56:10.195 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:56:14.266 [main] Log - Processing Card [21] Status Content: Apply
+[INFO ] 2026-08-27 13:56:14.266 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:56:17.946 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:56:18.668 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:56:22.780 [main] Log - Processing Card [22] Status Content: Apply
+[INFO ] 2026-08-27 13:56:22.780 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:56:26.501 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:56:27.201 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:56:31.329 [main] Log - Processing Card [23] Status Content: Apply
+[INFO ] 2026-08-27 13:56:31.329 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:56:35.035 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:56:35.755 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:56:39.822 [main] Log - Processing Card [24] Status Content: Apply
+[INFO ] 2026-08-27 13:56:39.822 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:56:43.535 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:56:44.233 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:56:48.360 [main] Log - Processing Card [25] Status Content: Apply
+[INFO ] 2026-08-27 13:56:48.360 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:56:52.139 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:56:52.827 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:56:56.935 [main] Log - Processing Card [26] Status Content: Apply
+[INFO ] 2026-08-27 13:56:56.936 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:57:00.734 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:57:01.458 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:57:05.533 [main] Log - Processing Card [27] Status Content: Apply
+[INFO ] 2026-08-27 13:57:05.533 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:57:09.275 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:57:09.998 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:57:14.109 [main] Log - Processing Card [28] Status Content: Apply
+[INFO ] 2026-08-27 13:57:14.109 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:57:17.818 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:57:18.495 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:57:22.653 [main] Log - Processing Card [29] Status Content: Apply
+[INFO ] 2026-08-27 13:57:22.653 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:57:26.368 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:57:27.079 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:57:31.172 [main] Log - Processing Card [30] Status Content: Apply
+[INFO ] 2026-08-27 13:57:31.172 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:57:34.892 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:57:35.651 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:57:39.792 [main] Log - Processing Card [31] Status Content: Apply
+[INFO ] 2026-08-27 13:57:39.792 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:57:43.569 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:57:44.226 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:57:48.334 [main] Log - Processing Card [32] Status Content: Apply
+[INFO ] 2026-08-27 13:57:48.334 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:57:52.052 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:57:52.746 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:57:56.823 [main] Log - Processing Card [33] Status Content: Apply
+[INFO ] 2026-08-27 13:57:56.823 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:58:00.535 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:58:01.230 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:58:05.318 [main] Log - Processing Card [34] Status Content: Apply
+[INFO ] 2026-08-27 13:58:05.318 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:58:09.035 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:58:09.725 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:58:13.866 [main] Log - Processing Card [35] Status Content: Apply
+[INFO ] 2026-08-27 13:58:13.866 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:58:17.569 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:58:18.280 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:58:22.358 [main] Log - Processing Card [36] Status Content: Apply
+[INFO ] 2026-08-27 13:58:22.358 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:58:26.038 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:58:26.741 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:58:30.898 [main] Log - Processing Card [37] Status Content: Apply
+[INFO ] 2026-08-27 13:58:30.898 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:58:34.763 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:58:35.452 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:58:39.555 [main] Log - Processing Card [38] Status Content: Apply
+[INFO ] 2026-08-27 13:58:39.555 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:58:43.253 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:58:43.983 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:58:48.055 [main] Log - Processing Card [39] Status Content: Apply
+[INFO ] 2026-08-27 13:58:48.055 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:58:51.736 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:58:52.442 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:58:56.513 [main] Log - Processing Card [40] Status Content: Apply
+[INFO ] 2026-08-27 13:58:56.513 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:59:00.313 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:59:00.999 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:59:05.149 [main] Log - Processing Card [41] Status Content: Apply
+[INFO ] 2026-08-27 13:59:05.149 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:59:08.871 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:59:09.560 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:59:13.639 [main] Log - Processing Card [42] Status Content: Apply
+[INFO ] 2026-08-27 13:59:13.639 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:59:17.370 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:59:18.064 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:59:22.229 [main] Log - Processing Card [43] Status Content: Apply
+[INFO ] 2026-08-27 13:59:22.229 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:59:25.987 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:59:26.684 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:59:30.772 [main] Log - Processing Card [44] Status Content: Apply
+[INFO ] 2026-08-27 13:59:30.772 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[ERROR] 2026-08-27 13:59:31.857 [main] Log - Error while applying to a job card slot at index [43] | Error Trace: element click intercepted: Element <button _ngcontent-ng-c2083163304="" id="id" href="javascript:void(0)" data-testid="spinner-button-button-page-1" class="btn btn-primary">...</button> is not clickable at point (1193, 853). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=151.0.7922.173)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66ef7ef4294ce579847512b8beabf7f2, clickElement {id=f.2A3D6627C96728034A5DBE87FF76839A.d.F5B59F5E73469A1EF5A04A7EF5669FEF.e.938}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.173, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51656}, goog:processID: 19152, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51656/devtoo..., se:cdpVersion: 151.0.7922.173, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (66ef7ef4294ce579847512b8beabf7f2)] -> xpath: //div[@class='card-block card-3 card-height2690']]] -> xpath: .//button[contains(@class,'btn-primary') or contains(@class,'apply')]]
+Session ID: 66ef7ef4294ce579847512b8beabf7f2
+[INFO ] 2026-08-27 13:59:31.940 [main] Log - Processing Card [45] Status Content: Apply
+[INFO ] 2026-08-27 13:59:31.940 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:59:36.553 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:59:37.275 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:59:41.282 [main] Log - All visible cards on Page 3 are finished. Checking for page progression elements...
+[INFO ] 2026-08-27 13:59:41.393 [main] Log - >>> NEXT PAGE CONTROLS DETECTED: Clicking arrow button to advance to Page 4
+[INFO ] 2026-08-27 13:59:43.661 [main] Log - ==================================================================
+[INFO ] 2026-08-27 13:59:43.661 [main] Log - ====== Starting processing for Listing Page: 4 ======
+[INFO ] 2026-08-27 13:59:43.662 [main] Log - ==================================================================
+[INFO ] 2026-08-27 13:59:43.685 [main] Log - Total job cards found on current view: 45
+[INFO ] 2026-08-27 13:59:43.837 [main] Log - Processing Card [1] Status Content: Apply
+[INFO ] 2026-08-27 13:59:43.837 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:59:47.637 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:59:48.350 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 13:59:52.431 [main] Log - Processing Card [2] Status Content: Apply
+[INFO ] 2026-08-27 13:59:52.431 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 13:59:56.170 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 13:59:56.867 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:00:01.067 [main] Log - Processing Card [3] Status Content: Apply
+[INFO ] 2026-08-27 14:00:01.067 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:00:04.803 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:00:05.491 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:00:09.627 [main] Log - Processing Card [4] Status Content: Apply
+[INFO ] 2026-08-27 14:00:09.627 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:00:13.487 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:00:14.175 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:00:18.248 [main] Log - Processing Card [5] Status Content: Apply
+[INFO ] 2026-08-27 14:00:18.248 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:00:21.955 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:00:22.665 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:00:26.745 [main] Log - Processing Card [6] Status Content: Apply
+[INFO ] 2026-08-27 14:00:26.745 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:00:30.470 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:00:31.214 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:00:35.366 [main] Log - Processing Card [7] Status Content: Apply
+[INFO ] 2026-08-27 14:00:35.366 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:00:39.146 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:00:39.849 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:00:43.956 [main] Log - Processing Card [8] Status Content: Apply
+[INFO ] 2026-08-27 14:00:43.956 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:00:47.652 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:00:48.367 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:00:52.442 [main] Log - Processing Card [9] Status Content: Apply
+[INFO ] 2026-08-27 14:00:52.442 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:00:56.140 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:00:56.829 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:01:00.910 [main] Log - Processing Card [10] Status Content: Apply
+[INFO ] 2026-08-27 14:01:00.910 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:01:04.653 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:01:05.344 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:01:09.530 [main] Log - Processing Card [11] Status Content: Apply
+[INFO ] 2026-08-27 14:01:09.532 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:01:13.254 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:01:13.940 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:01:18.007 [main] Log - Processing Card [12] Status Content: Apply
+[INFO ] 2026-08-27 14:01:18.007 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:01:21.682 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:01:22.357 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:01:26.437 [main] Log - Processing Card [13] Status Content: Apply
+[INFO ] 2026-08-27 14:01:26.437 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:01:30.221 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:01:30.897 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:01:35.014 [main] Log - Processing Card [14] Status Content: Apply
+[INFO ] 2026-08-27 14:01:35.014 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:01:38.804 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:01:39.456 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:01:43.528 [main] Log - Processing Card [15] Status Content: Applied
+[INFO ] 2026-08-27 14:01:43.528 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:43.588 [main] Log - Processing Card [16] Status Content: Applied
+[INFO ] 2026-08-27 14:01:43.588 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:43.669 [main] Log - Processing Card [17] Status Content: Apply
+[INFO ] 2026-08-27 14:01:43.669 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:01:47.388 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:01:48.122 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:01:52.234 [main] Log - Processing Card [18] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.234 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:52.302 [main] Log - Processing Card [19] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.302 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:52.368 [main] Log - Processing Card [20] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.368 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:52.446 [main] Log - Processing Card [21] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.446 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:52.530 [main] Log - Processing Card [22] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.530 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:52.652 [main] Log - Processing Card [23] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.652 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:52.751 [main] Log - Processing Card [24] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.751 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:52.827 [main] Log - Processing Card [25] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.827 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:52.938 [main] Log - Processing Card [26] Status Content: Applied
+[INFO ] 2026-08-27 14:01:52.938 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:53.054 [main] Log - Processing Card [27] Status Content: Applied
+[INFO ] 2026-08-27 14:01:53.055 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:53.150 [main] Log - Processing Card [28] Status Content: Applied
+[INFO ] 2026-08-27 14:01:53.150 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:53.255 [main] Log - Processing Card [29] Status Content: Applied
+[INFO ] 2026-08-27 14:01:53.255 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:53.371 [main] Log - Processing Card [30] Status Content: Applied
+[INFO ] 2026-08-27 14:01:53.371 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:53.482 [main] Log - Processing Card [31] Status Content: Applied
+[INFO ] 2026-08-27 14:01:53.482 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:01:53.632 [main] Log - Processing Card [32] Status Content: Apply
+[INFO ] 2026-08-27 14:01:53.632 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:01:57.388 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:01:58.101 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:02:02.178 [main] Log - Processing Card [33] Status Content: Applied
+[INFO ] 2026-08-27 14:02:02.178 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:02.262 [main] Log - Processing Card [34] Status Content: Apply
+[INFO ] 2026-08-27 14:02:02.262 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:02:06.046 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:02:06.784 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:02:10.871 [main] Log - Processing Card [35] Status Content: Applied
+[INFO ] 2026-08-27 14:02:10.872 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:10.988 [main] Log - Processing Card [36] Status Content: Applied
+[INFO ] 2026-08-27 14:02:10.988 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.082 [main] Log - Processing Card [37] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.082 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.180 [main] Log - Processing Card [38] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.180 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.289 [main] Log - Processing Card [39] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.289 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.373 [main] Log - Processing Card [40] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.373 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.537 [main] Log - Processing Card [41] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.537 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.655 [main] Log - Processing Card [42] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.655 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.748 [main] Log - Processing Card [43] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.748 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.924 [main] Log - Processing Card [44] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.924 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.990 [main] Log - Processing Card [45] Status Content: Applied
+[INFO ] 2026-08-27 14:02:11.990 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:11.990 [main] Log - All visible cards on Page 4 are finished. Checking for page progression elements...
+[INFO ] 2026-08-27 14:02:12.030 [main] Log - >>> NEXT PAGE CONTROLS DETECTED: Clicking arrow button to advance to Page 5
+[INFO ] 2026-08-27 14:02:14.308 [main] Log - ==================================================================
+[INFO ] 2026-08-27 14:02:14.308 [main] Log - ====== Starting processing for Listing Page: 5 ======
+[INFO ] 2026-08-27 14:02:14.308 [main] Log - ==================================================================
+[INFO ] 2026-08-27 14:02:14.335 [main] Log - Total job cards found on current view: 45
+[INFO ] 2026-08-27 14:02:14.424 [main] Log - Processing Card [1] Status Content: Apply
+[INFO ] 2026-08-27 14:02:14.424 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:02:18.308 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:02:19.011 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:02:23.206 [main] Log - Processing Card [2] Status Content: Applied
+[INFO ] 2026-08-27 14:02:23.206 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:23.328 [main] Log - Processing Card [3] Status Content: Applied
+[INFO ] 2026-08-27 14:02:23.328 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:23.404 [main] Log - Processing Card [4] Status Content: Apply
+[INFO ] 2026-08-27 14:02:23.404 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:02:27.355 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:02:28.057 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:02:32.147 [main] Log - Processing Card [5] Status Content: Applied
+[INFO ] 2026-08-27 14:02:32.147 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:32.213 [main] Log - Processing Card [6] Status Content: Applied
+[INFO ] 2026-08-27 14:02:32.213 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:32.289 [main] Log - Processing Card [7] Status Content: Apply
+[INFO ] 2026-08-27 14:02:32.289 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:02:36.105 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:02:36.823 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:02:40.920 [main] Log - Processing Card [8] Status Content: Applied
+[INFO ] 2026-08-27 14:02:40.921 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:41.013 [main] Log - Processing Card [9] Status Content: Applied
+[INFO ] 2026-08-27 14:02:41.013 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:41.099 [main] Log - Processing Card [10] Status Content: Apply
+[INFO ] 2026-08-27 14:02:41.099 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:02:44.890 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:02:45.601 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:02:49.706 [main] Log - Processing Card [11] Status Content: Applied
+[INFO ] 2026-08-27 14:02:49.706 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:49.771 [main] Log - Processing Card [12] Status Content: Applied
+[INFO ] 2026-08-27 14:02:49.771 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:49.871 [main] Log - Processing Card [13] Status Content: Applied
+[INFO ] 2026-08-27 14:02:49.873 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:49.973 [main] Log - Processing Card [14] Status Content: Applied
+[INFO ] 2026-08-27 14:02:49.973 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:50.064 [main] Log - Processing Card [15] Status Content: Applied
+[INFO ] 2026-08-27 14:02:50.064 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:50.139 [main] Log - Processing Card [16] Status Content: Applied
+[INFO ] 2026-08-27 14:02:50.139 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:50.255 [main] Log - Processing Card [17] Status Content: Applied
+[INFO ] 2026-08-27 14:02:50.255 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:50.425 [main] Log - Processing Card [18] Status Content: Apply
+[INFO ] 2026-08-27 14:02:50.425 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:02:54.179 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:02:54.894 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:02:59.039 [main] Log - Processing Card [19] Status Content: Applied
+[INFO ] 2026-08-27 14:02:59.039 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:02:59.223 [main] Log - Processing Card [20] Status Content: Apply
+[INFO ] 2026-08-27 14:02:59.223 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:03:02.955 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:03:03.665 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:03:07.715 [main] Log - Processing Card [21] Status Content: Applied
+[INFO ] 2026-08-27 14:03:07.715 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:07.805 [main] Log - Processing Card [22] Status Content: Applied
+[INFO ] 2026-08-27 14:03:07.805 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:07.879 [main] Log - Processing Card [23] Status Content: Applied
+[INFO ] 2026-08-27 14:03:07.887 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:08.001 [main] Log - Processing Card [24] Status Content: Applied
+[INFO ] 2026-08-27 14:03:08.001 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:08.079 [main] Log - Processing Card [25] Status Content: Apply
+[INFO ] 2026-08-27 14:03:08.079 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:03:11.956 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:03:12.653 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:03:16.755 [main] Log - Processing Card [26] Status Content: Apply
+[INFO ] 2026-08-27 14:03:16.755 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:03:20.439 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:03:21.165 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:03:25.259 [main] Log - Processing Card [27] Status Content: Apply
+[INFO ] 2026-08-27 14:03:25.260 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:03:29.082 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:03:29.909 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:03:34.130 [main] Log - Processing Card [28] Status Content: Applied
+[INFO ] 2026-08-27 14:03:34.130 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:34.301 [main] Log - Processing Card [29] Status Content: Applied
+[INFO ] 2026-08-27 14:03:34.301 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:34.380 [main] Log - Processing Card [30] Status Content: Applied
+[INFO ] 2026-08-27 14:03:34.380 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:34.692 [main] Log - Processing Card [31] Status Content: Applied
+[INFO ] 2026-08-27 14:03:34.692 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:34.826 [main] Log - Processing Card [32] Status Content: Apply
+[INFO ] 2026-08-27 14:03:34.826 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:03:38.698 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:03:39.571 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:03:43.671 [main] Log - Processing Card [33] Status Content: Applied
+[INFO ] 2026-08-27 14:03:43.671 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:43.762 [main] Log - Processing Card [34] Status Content: Applied
+[INFO ] 2026-08-27 14:03:43.762 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:43.856 [main] Log - Processing Card [35] Status Content: Apply
+[INFO ] 2026-08-27 14:03:43.856 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[ERROR] 2026-08-27 14:03:44.995 [main] Log - Error while applying to a job card slot at index [34] | Error Trace: element click intercepted: Element <button _ngcontent-ng-c2083163304="" id="id" href="javascript:void(0)" data-testid="spinner-button-button-page-1" class="btn btn-primary">...</button> is not clickable at point (1193, 997). Other element would receive the click: <div class="notification-text-outer">...</div>
+  (Session info: chrome=151.0.7922.173)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66ef7ef4294ce579847512b8beabf7f2, clickElement {id=f.2A3D6627C96728034A5DBE87FF76839A.d.F5B59F5E73469A1EF5A04A7EF5669FEF.e.1642}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.173, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51656}, goog:processID: 19152, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51656/devtoo..., se:cdpVersion: 151.0.7922.173, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (66ef7ef4294ce579847512b8beabf7f2)] -> xpath: //div[@class='card-block card-3 card-height2690']]] -> xpath: .//button[contains(@class,'btn-primary') or contains(@class,'apply')]]
+Session ID: 66ef7ef4294ce579847512b8beabf7f2
+[INFO ] 2026-08-27 14:03:45.253 [main] Log - Processing Card [36] Status Content: Applied
+[INFO ] 2026-08-27 14:03:45.253 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:45.548 [main] Log - Processing Card [37] Status Content: Apply
+[INFO ] 2026-08-27 14:03:45.548 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:03:49.507 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:03:50.361 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:03:54.449 [main] Log - Processing Card [38] Status Content: Applied
+[INFO ] 2026-08-27 14:03:54.451 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:03:54.530 [main] Log - Processing Card [39] Status Content: Apply
+[INFO ] 2026-08-27 14:03:54.531 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:03:58.391 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:03:59.228 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:04:03.574 [main] Log - Processing Card [40] Status Content: Apply
+[INFO ] 2026-08-27 14:04:03.575 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:04:07.484 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:04:08.312 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:04:12.390 [main] Log - Processing Card [41] Status Content: Applied
+[INFO ] 2026-08-27 14:04:12.390 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:04:12.467 [main] Log - Processing Card [42] Status Content: Applied
+[INFO ] 2026-08-27 14:04:12.468 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:04:12.748 [main] Log - Processing Card [43] Status Content: Applied
+[INFO ] 2026-08-27 14:04:12.748 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:04:12.883 [main] Log - Processing Card [44] Status Content: Apply
+[INFO ] 2026-08-27 14:04:12.883 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:04:16.749 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:04:17.573 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:04:21.663 [main] Log - Processing Card [45] Status Content: Applied
+[INFO ] 2026-08-27 14:04:21.663 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:04:21.663 [main] Log - All visible cards on Page 5 are finished. Checking for page progression elements...
+[INFO ] 2026-08-27 14:04:21.727 [main] Log - >>> NEXT PAGE CONTROLS DETECTED: Clicking arrow button to advance to Page 6
+[INFO ] 2026-08-27 14:04:24.053 [main] Log - ==================================================================
+[INFO ] 2026-08-27 14:04:24.053 [main] Log - ====== Starting processing for Listing Page: 6 ======
+[INFO ] 2026-08-27 14:04:24.053 [main] Log - ==================================================================
+[INFO ] 2026-08-27 14:04:24.081 [main] Log - Total job cards found on current view: 45
+[INFO ] 2026-08-27 14:04:24.424 [main] Log - Processing Card [1] Status Content: Apply
+[INFO ] 2026-08-27 14:04:24.424 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:04:28.965 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:04:29.832 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:04:33.994 [main] Log - Processing Card [2] Status Content: Applied
+[INFO ] 2026-08-27 14:04:33.994 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:04:34.117 [main] Log - Processing Card [3] Status Content: Applied
+[INFO ] 2026-08-27 14:04:34.118 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:04:34.370 [main] Log - Processing Card [4] Status Content: Apply
+[INFO ] 2026-08-27 14:04:34.370 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:04:38.379 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:04:39.287 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:04:43.375 [main] Log - Processing Card [5] Status Content: Applied
+[INFO ] 2026-08-27 14:04:43.375 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:04:43.451 [main] Log - Processing Card [6] Status Content: Apply
+[INFO ] 2026-08-27 14:04:43.451 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:04:47.323 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:04:48.167 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:04:52.304 [main] Log - Processing Card [7] Status Content: Apply
+[INFO ] 2026-08-27 14:04:52.304 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:04:56.407 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:04:57.237 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:05:01.376 [main] Log - Processing Card [8] Status Content: Applied
+[INFO ] 2026-08-27 14:05:01.376 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:05:01.456 [main] Log - Processing Card [9] Status Content: Applied
+[INFO ] 2026-08-27 14:05:01.456 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:05:01.660 [main] Log - Processing Card [10] Status Content: Apply
+[INFO ] 2026-08-27 14:05:01.661 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:05:05.635 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:05:06.472 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:05:10.567 [main] Log - Processing Card [11] Status Content: Apply
+[INFO ] 2026-08-27 14:05:10.567 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:05:14.422 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:05:15.262 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:05:19.352 [main] Log - Processing Card [12] Status Content: Applied
+[INFO ] 2026-08-27 14:05:19.352 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:05:19.554 [main] Log - Processing Card [13] Status Content: Applied
+[INFO ] 2026-08-27 14:05:19.554 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:05:19.731 [main] Log - Processing Card [14] Status Content: Applied
+[INFO ] 2026-08-27 14:05:19.731 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:05:19.807 [main] Log - Processing Card [15] Status Content: Applied
+[INFO ] 2026-08-27 14:05:19.807 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:05:20.027 [main] Log - Processing Card [16] Status Content: Applied
+[INFO ] 2026-08-27 14:05:20.027 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:05:20.206 [main] Log - Processing Card [17] Status Content: Apply
+[INFO ] 2026-08-27 14:05:20.207 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:05:24.103 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:05:24.978 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:05:29.065 [main] Log - Processing Card [18] Status Content: Apply
+[INFO ] 2026-08-27 14:05:29.065 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:05:32.905 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:05:33.786 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:05:38.071 [main] Log - Processing Card [19] Status Content: Apply
+[INFO ] 2026-08-27 14:05:38.071 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:05:41.979 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:05:42.810 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:05:46.902 [main] Log - Processing Card [20] Status Content: Apply
+[INFO ] 2026-08-27 14:05:46.902 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:05:50.773 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:05:51.613 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:05:55.698 [main] Log - Processing Card [21] Status Content: Apply
+[INFO ] 2026-08-27 14:05:55.698 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:05:59.553 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:06:00.445 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:06:04.664 [main] Log - Processing Card [22] Status Content: Apply
+[INFO ] 2026-08-27 14:06:04.666 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:06:08.679 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:06:09.527 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:06:13.620 [main] Log - Processing Card [23] Status Content: Apply
+[INFO ] 2026-08-27 14:06:13.620 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:06:17.535 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:06:18.363 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:06:22.449 [main] Log - Processing Card [24] Status Content: Applied
+[INFO ] 2026-08-27 14:06:22.449 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:06:22.710 [main] Log - Processing Card [25] Status Content: Apply
+[INFO ] 2026-08-27 14:06:22.710 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:06:26.685 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:06:27.576 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:06:31.656 [main] Log - Processing Card [26] Status Content: Apply
+[INFO ] 2026-08-27 14:06:31.657 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:06:35.525 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:06:36.364 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:06:40.458 [main] Log - Processing Card [27] Status Content: Apply
+[INFO ] 2026-08-27 14:06:40.458 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:06:44.384 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:06:45.253 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:06:49.528 [main] Log - Processing Card [28] Status Content: Apply
+[INFO ] 2026-08-27 14:06:49.529 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:06:53.506 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:06:54.381 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:06:58.475 [main] Log - Processing Card [29] Status Content: Apply
+[INFO ] 2026-08-27 14:06:58.475 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:07:02.386 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:07:03.195 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:07:07.295 [main] Log - Processing Card [30] Status Content: Apply
+[INFO ] 2026-08-27 14:07:07.295 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:07:11.190 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:07:12.066 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:07:16.364 [main] Log - Processing Card [31] Status Content: Apply
+[INFO ] 2026-08-27 14:07:16.364 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:07:20.409 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:07:21.271 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:07:25.366 [main] Log - Processing Card [32] Status Content: Apply
+[INFO ] 2026-08-27 14:07:25.366 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:07:29.178 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:07:29.897 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:07:33.987 [main] Log - Processing Card [33] Status Content: Apply
+[INFO ] 2026-08-27 14:07:33.987 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:07:37.687 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:07:38.450 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:07:42.654 [main] Log - Processing Card [34] Status Content: Apply
+[INFO ] 2026-08-27 14:07:42.654 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:07:46.623 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:07:47.385 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:07:51.473 [main] Log - Processing Card [35] Status Content: Apply
+[INFO ] 2026-08-27 14:07:51.473 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:07:55.228 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:07:55.929 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:08:00.020 [main] Log - Processing Card [36] Status Content: Apply
+[INFO ] 2026-08-27 14:08:00.020 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:08:03.778 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:08:04.487 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:08:08.582 [main] Log - Processing Card [37] Status Content: Apply
+[INFO ] 2026-08-27 14:08:08.582 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:08:12.303 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:08:13.023 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:08:17.108 [main] Log - Processing Card [38] Status Content: Apply
+[INFO ] 2026-08-27 14:08:17.108 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:08:20.833 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:08:21.648 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:08:25.727 [main] Log - Processing Card [39] Status Content: Applied
+[INFO ] 2026-08-27 14:08:25.727 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:08:25.962 [main] Log - Processing Card [40] Status Content: Applied
+[INFO ] 2026-08-27 14:08:25.962 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:08:26.116 [main] Log - Processing Card [41] Status Content: Apply
+[INFO ] 2026-08-27 14:08:26.116 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:08:29.964 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:08:30.769 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:08:34.851 [main] Log - Processing Card [42] Status Content: Apply
+[INFO ] 2026-08-27 14:08:34.851 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:08:38.713 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:08:39.535 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:08:43.751 [main] Log - Processing Card [43] Status Content: Applied
+[INFO ] 2026-08-27 14:08:43.751 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:08:43.867 [main] Log - Processing Card [44] Status Content: Applied
+[INFO ] 2026-08-27 14:08:43.867 [main] Log - >>> SKIPPING CARD: Already applied to this vacancy entry slot.
+[INFO ] 2026-08-27 14:08:43.934 [main] Log - Processing Card [45] Status Content: Apply
+[INFO ] 2026-08-27 14:08:43.934 [main] Log - >>> CLICKING APPLY: Triggering action click flow on target card element...
+[INFO ] 2026-08-27 14:08:47.778 [main] Log - >>> Modal popup identified on layout template framework.
+[INFO ] 2026-08-27 14:08:48.568 [main] Log - >>> SUCCESS: Confirmed application by clicking 'Yes' button using explicit element driver action context.
+[INFO ] 2026-08-27 14:08:52.577 [main] Log - All visible cards on Page 6 are finished. Checking for page progression elements...
+[INFO ] 2026-08-27 14:08:52.677 [main] Log - >>> NEXT PAGE CONTROLS DETECTED: Clicking arrow button to advance to Page 7

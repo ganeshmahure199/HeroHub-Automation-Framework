@@ -13,6 +13,14 @@ public class ConfigeDataProvider extends PageClassObject {
         return Library.getStringConfigData("orngHRMURL");
     }
     
+    public static String getAutomationExerciseUrl() {
+    	return Library.getStringConfigData("automationExercise");
+    }
+    
+	public static String naukri() {
+		return Library.getStringConfigData("naukri");
+	}
+    
     public static String getBrowserName() {
         String browser = Library.getStringConfigData("browser");
         return (browser != null) ? browser.trim().toLowerCase() : "chrome"; 
