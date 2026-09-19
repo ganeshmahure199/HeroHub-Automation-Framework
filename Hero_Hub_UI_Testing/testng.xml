@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="AE_Suite">
+<suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.automationExerciseTest.TC_AE_RegisterUser"/>
-      <class name="com.automationExerciseTest.TC_AE_LoginUserCorrectCredentials"/>
+      <class name="com.orangeHRMTest.TC_LoginPageExcelData"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- AE_Suite -->
+</suite> <!-- Suite -->

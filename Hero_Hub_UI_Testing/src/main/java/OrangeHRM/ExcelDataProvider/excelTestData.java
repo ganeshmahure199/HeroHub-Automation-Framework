@@ -11,7 +11,7 @@ public class excelTestData {
     
     public excelTestData(int sheetNumber, int rowNumber) {
     
-        this.username1 = Library.getExcelData(sheetNumber, rowNumber, 1); // Column B
-        this.password1 = Library.getExcelData(sheetNumber, rowNumber, 2); // Column C
+        this.username1 = Library.getExcelData(sheetNumber, rowNumber, 1); 
+        this.password1 = Library.getExcelData(sheetNumber, rowNumber, 2); 
     }
 }

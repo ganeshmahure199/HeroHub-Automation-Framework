@@ -22,35 +22,37 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.google.common.io.Files;
 
+import OrangeHRM.ExcelDataProvider.excelTestData;
 import net.bytebuddy.utility.RandomString;
 
 public class BaseTest extends ConfigeDataProvider {
     
     @BeforeSuite(alwaysRun = true)
     public void setupSuite() {        
-        OrangeHRM.Utility.Log.initialiseExtentReport();
+        Log.initialiseExtentReport();
     }
     
     @BeforeClass(alwaysRun = true)
     public void beforeClass() throws Exception {     
         launchBrowser();
-        exceldata = new OrangeHRM.ExcelDataProvider.excelTestData(0, 1);
+        exceldata = new excelTestData(0, 1);
         login = new OrangeHRM.pages.loginPage(driver);
     }
     
     @BeforeMethod(alwaysRun = true)
     public void beforeMethod(Method method, ITestResult result) throws Exception {      
         String testName = result.getTestClass().getName() + " = " + method.getName();              
-        com.aventstack.extentreports.ExtentTest test = OrangeHRM.Utility.Log.extent.createTest(testName);
+        ExtentTest test = OrangeHRM.Utility.Log.extent.createTest(testName);
         OrangeHRM.Utility.Log.setTest(test);
         LOGGER.debug("Start -> Test -> " + method.getName());
-    }
+}
 
     @AfterMethod(alwaysRun = true)
     public void afterMethod(Method method, ITestResult result) throws Exception  {
-        OrangeHRM.Utility.Log.afterMethodLogResult(method, result, driver);
+        Log.afterMethodLogResult(method, result, driver);
         Library.threadSleep(1000);
         LOGGER.debug("End -> Test -> " + method.getName());                                
         OrangeHRM.Utility.Log.removeTest();
@@ -87,9 +89,7 @@ public class BaseTest extends ConfigeDataProvider {
             driver = new ChromeDriver(options);      
         }
         driver.manage().window().maximize();                
-      //  driver.get(ConfigeDataProvider.getOrangeHrmUrl());         
-      //  driver.get(ConfigeDataProvider.getAutomationExerciseUrl()); 
-        driver.get(ConfigeDataProvider.naukri());  
+        driver.get(ConfigeDataProvider.getOrangeHrmUrl());                    
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));      
     }
  
